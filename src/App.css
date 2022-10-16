@@ -1,0 +1,35 @@
+:root {
+  max-width: 1280px;
+  padding: 1rem;
+  text-align: center;
+  --background: rgb(219, 219, 219);
+  --text-primary: black;
+}
+
+.logo {
+  height: 6em;
+  margin: 1.5em;
+  will-change: filter;
+  animation: logo-spin 5s infinite ease-in-out ;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+@keyframes logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.card {
+  padding: 1.5em;
+}
+
+.read-the-docs {
+  color: #888;
+}
